@@ -7,14 +7,12 @@ Steps Performed:
              Label Encoded the target variable (Attrition).
      2. Train-Test Split:
              The dataset was split into training and test sets using an 80-20 split.
-     3. Handling Imbalanced Data:
-             Since attrition cases (Yes) were fewer, SMOTE (Synthetic Minority Over-sampling Technique) was applied to the training data to balance the classes.
-     4. Feature Scaling:
+     3. Feature Scaling:
              Standardized numerical features using StandardScaler to ensure all features contribute equally to the model.
-     5. Model Building:
+     4. Model Building:
              Implemented a Logistic Regression model with class weights set to balanced to handle residual class imbalance.
-     6. Trained on the SMOTE-resampled training data.
-     7. Model Evaluation:
+     5. Trained on the SMOTE-resampled training data.
+     6. Model Evaluation:
              Evaluated using Accuracy.
 Tools & Technologies Used:
        Python (Jupyter Notebook)
